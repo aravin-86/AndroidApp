@@ -10,7 +10,7 @@ public class HelloAndroidActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TextView tv = new TextView(this);
-        tv.setText("Hello, Android World. This is test app.");
+        tv.setText("Hello, Android World. This is a test app for Nexus S.");
         setContentView(tv);
     }
 }
